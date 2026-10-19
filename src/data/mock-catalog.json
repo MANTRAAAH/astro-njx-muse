@@ -58,11 +58,11 @@
    "vendor": "Noble Muse",
    "images": [
     {
-     "src": "/products/nm01.jpg",
+     "src": "/placeholder-square.svg",
      "alt": "Vesper Slip Dress"
     },
     {
-     "src": "/products/nm01b.jpg",
+     "src": "/placeholder-square-alt.svg",
      "alt": "Vesper Slip Dress — full look"
     }
    ],
@@ -118,11 +118,11 @@
    "vendor": "Noble Muse",
    "images": [
     {
-     "src": "/products/nm02.jpg",
+     "src": "/placeholder-square.svg",
      "alt": "Aurelie Midi Dress"
     },
     {
-     "src": "/products/nm02b.jpg",
+     "src": "/placeholder-square-alt.svg",
      "alt": "Aurelie Midi Dress — full look"
     }
    ],
@@ -180,11 +180,11 @@
    "vendor": "Noble Muse",
    "images": [
     {
-     "src": "/products/nm03.jpg",
+     "src": "/placeholder-square.svg",
      "alt": "Solene Knit Dress"
     },
     {
-     "src": "/products/nm03b.jpg",
+     "src": "/placeholder-square-alt.svg",
      "alt": "Solene Knit Dress — full look"
     }
    ],
@@ -244,11 +244,11 @@
    "vendor": "Noble Muse",
    "images": [
     {
-     "src": "/products/nm04.jpg",
+     "src": "/placeholder-square.svg",
      "alt": "Marguerite Shirt Dress"
     },
     {
-     "src": "/products/nm04b.jpg",
+     "src": "/placeholder-square-alt.svg",
      "alt": "Marguerite Shirt Dress — full look"
     }
    ],
@@ -302,11 +302,11 @@
    "vendor": "Noble Muse",
    "images": [
     {
-     "src": "/products/nm05.jpg",
+     "src": "/placeholder-square.svg",
      "alt": "Odette Silk Blouse"
     },
     {
-     "src": "/products/nm05b.jpg",
+     "src": "/placeholder-square-alt.svg",
      "alt": "Odette Silk Blouse — full look"
     }
    ],
@@ -360,11 +360,11 @@
    "vendor": "Noble Muse",
    "images": [
     {
-     "src": "/products/nm06.jpg",
+     "src": "/placeholder-square.svg",
      "alt": "Lenna Balloon Blouse"
     },
     {
-     "src": "/products/nm06b.jpg",
+     "src": "/placeholder-square-alt.svg",
      "alt": "Lenna Balloon Blouse — full look"
     }
    ],
@@ -424,11 +424,11 @@
    "vendor": "Noble Muse",
    "images": [
     {
-     "src": "/products/nm07.jpg",
+     "src": "/placeholder-square.svg",
      "alt": "Ivo Bow Blouse"
     },
     {
-     "src": "/products/nm07b.jpg",
+     "src": "/placeholder-square-alt.svg",
      "alt": "Ivo Bow Blouse — full look"
     }
    ],
@@ -484,11 +484,11 @@
    "vendor": "Noble Muse",
    "images": [
     {
-     "src": "/products/nm08.jpg",
+     "src": "/placeholder-square.svg",
      "alt": "Cove Poplin Shirt"
     },
     {
-     "src": "/products/nm08b.jpg",
+     "src": "/placeholder-square-alt.svg",
      "alt": "Cove Poplin Shirt — full look"
     }
    ],
@@ -542,11 +542,11 @@
    "vendor": "Noble Muse",
    "images": [
     {
-     "src": "/products/nm09.jpg",
+     "src": "/placeholder-square.svg",
      "alt": "Nera Rib Top"
     },
     {
-     "src": "/products/nm09b.jpg",
+     "src": "/placeholder-square-alt.svg",
      "alt": "Nera Rib Top — full look"
     }
    ],
@@ -604,11 +604,11 @@
    "vendor": "Noble Muse",
    "images": [
     {
-     "src": "/products/nm10.jpg",
+     "src": "/placeholder-square.svg",
      "alt": "Wren Cotton Tee"
     },
     {
-     "src": "/products/nm10b.jpg",
+     "src": "/placeholder-square-alt.svg",
      "alt": "Wren Cotton Tee — full look"
     }
    ],
@@ -662,11 +662,11 @@
    "vendor": "Noble Muse",
    "images": [
     {
-     "src": "/products/nm11.jpg",
+     "src": "/placeholder-square.svg",
      "alt": "Halden Cashmere Jumper"
     },
     {
-     "src": "/products/nm11b.jpg",
+     "src": "/placeholder-square-alt.svg",
      "alt": "Halden Cashmere Jumper — full look"
     }
    ],
@@ -722,11 +722,11 @@
    "vendor": "Noble Muse",
    "images": [
     {
-     "src": "/products/nm12.jpg",
+     "src": "/placeholder-square.svg",
      "alt": "Rowan Cable Knit"
     },
     {
-     "src": "/products/nm12b.jpg",
+     "src": "/placeholder-square-alt.svg",
      "alt": "Rowan Cable Knit — full look"
     }
    ],
@@ -780,11 +780,11 @@
    "vendor": "Noble Muse",
    "images": [
     {
-     "src": "/products/nm13.jpg",
+     "src": "/placeholder-square.svg",
      "alt": "Elgin Hoodie"
     },
     {
-     "src": "/products/nm13b.jpg",
+     "src": "/placeholder-square-alt.svg",
      "alt": "Elgin Hoodie — full look"
     }
    ],
@@ -838,11 +838,11 @@
    "vendor": "Noble Muse",
    "images": [
     {
-     "src": "/products/nm14.jpg",
+     "src": "/placeholder-square.svg",
      "alt": "Mira Merino Cardigan"
     },
     {
-     "src": "/products/nm14b.jpg",
+     "src": "/placeholder-square-alt.svg",
      "alt": "Mira Merino Cardigan — full look"
     }
    ],
@@ -900,11 +900,11 @@
    "vendor": "Noble Muse",
    "images": [
     {
-     "src": "/products/nm15.jpg",
+     "src": "/placeholder-square.svg",
      "alt": "Aldford Wool Coat"
     },
     {
-     "src": "/products/nm15b.jpg",
+     "src": "/placeholder-square-alt.svg",
      "alt": "Aldford Wool Coat — full look"
     }
    ],
@@ -960,11 +960,11 @@
    "vendor": "Noble Muse",
    "images": [
     {
-     "src": "/products/nm16.jpg",
+     "src": "/placeholder-square.svg",
      "alt": "Bryn Quilted Jacket"
     },
     {
-     "src": "/products/nm16b.jpg",
+     "src": "/placeholder-square-alt.svg",
      "alt": "Bryn Quilted Jacket — full look"
     }
    ],
@@ -1018,11 +1018,11 @@
    "vendor": "Noble Muse",
    "images": [
     {
-     "src": "/products/nm17.jpg",
+     "src": "/placeholder-square.svg",
      "alt": "Sable Trench"
     },
     {
-     "src": "/products/nm17b.jpg",
+     "src": "/placeholder-square-alt.svg",
      "alt": "Sable Trench — full look"
     }
    ],
@@ -1072,11 +1072,11 @@
    "vendor": "Noble Muse",
    "images": [
     {
-     "src": "/products/nm18.jpg",
+     "src": "/placeholder-square.svg",
      "alt": "Tessa Shearling Jacket"
     },
     {
-     "src": "/products/nm18b.jpg",
+     "src": "/placeholder-square-alt.svg",
      "alt": "Tessa Shearling Jacket — full look"
     }
    ],
@@ -1136,11 +1136,11 @@
    "vendor": "Noble Muse",
    "images": [
     {
-     "src": "/products/nm19.jpg",
+     "src": "/placeholder-square.svg",
      "alt": "Marlow Tweed Blazer"
     },
     {
-     "src": "/products/nm19b.jpg",
+     "src": "/placeholder-square-alt.svg",
      "alt": "Marlow Tweed Blazer — full look"
     }
    ],
@@ -1196,11 +1196,11 @@
    "vendor": "Noble Muse",
    "images": [
     {
-     "src": "/products/nm20.jpg",
+     "src": "/placeholder-square.svg",
      "alt": "Juno Longline Blazer"
     },
     {
-     "src": "/products/nm20b.jpg",
+     "src": "/placeholder-square-alt.svg",
      "alt": "Juno Longline Blazer — full look"
     }
    ],
@@ -1254,11 +1254,11 @@
    "vendor": "Noble Muse",
    "images": [
     {
-     "src": "/products/nm21.jpg",
+     "src": "/placeholder-square.svg",
      "alt": "Ida Wide Trouser"
     },
     {
-     "src": "/products/nm21b.jpg",
+     "src": "/placeholder-square-alt.svg",
      "alt": "Ida Wide Trouser — full look"
     }
    ],
@@ -1316,11 +1316,11 @@
    "vendor": "Noble Muse",
    "images": [
     {
-     "src": "/products/nm22.jpg",
+     "src": "/placeholder-square.svg",
      "alt": "Lo Pleated Trouser"
     },
     {
-     "src": "/products/nm22b.jpg",
+     "src": "/placeholder-square-alt.svg",
      "alt": "Lo Pleated Trouser — full look"
     }
    ],
@@ -1376,11 +1376,11 @@
    "vendor": "Noble Muse",
    "images": [
     {
-     "src": "/products/nm23.jpg",
+     "src": "/placeholder-square.svg",
      "alt": "Faye Straight Jean"
     },
     {
-     "src": "/products/nm23b.jpg",
+     "src": "/placeholder-square-alt.svg",
      "alt": "Faye Straight Jean — full look"
     }
    ],
@@ -1435,11 +1435,11 @@
    "vendor": "Noble Muse",
    "images": [
     {
-     "src": "/products/nm24.jpg",
+     "src": "/placeholder-square.svg",
      "alt": "Nine Barrel Jean"
     },
     {
-     "src": "/products/nm24b.jpg",
+     "src": "/placeholder-square-alt.svg",
      "alt": "Nine Barrel Jean — full look"
     }
    ],
@@ -1492,11 +1492,11 @@
    "vendor": "Noble Muse",
    "images": [
     {
-     "src": "/products/nm25.jpg",
+     "src": "/placeholder-square.svg",
      "alt": "Robin Wide Denim"
     },
     {
-     "src": "/products/nm25b.jpg",
+     "src": "/placeholder-square-alt.svg",
      "alt": "Robin Wide Denim — full look"
     }
    ],
@@ -1555,11 +1555,11 @@
    "vendor": "Noble Muse",
    "images": [
     {
-     "src": "/products/nm26.jpg",
+     "src": "/placeholder-square.svg",
      "alt": "Otta Leather Belt"
     },
     {
-     "src": "/products/nm26b.jpg",
+     "src": "/placeholder-square-alt.svg",
      "alt": "Otta Leather Belt — full look"
     }
    ],
@@ -1609,11 +1609,11 @@
    "vendor": "Noble Muse",
    "images": [
     {
-     "src": "/products/nm27.jpg",
+     "src": "/placeholder-square.svg",
      "alt": "Suri Wool Scarf"
     },
     {
-     "src": "/products/nm27b.jpg",
+     "src": "/placeholder-square-alt.svg",
      "alt": "Suri Wool Scarf — full look"
     }
    ],
@@ -1665,11 +1665,11 @@
    "vendor": "Noble Muse",
    "images": [
     {
-     "src": "/products/nm28.jpg",
+     "src": "/placeholder-square.svg",
      "alt": "Base Rib Bodysuit"
     },
     {
-     "src": "/products/nm28b.jpg",
+     "src": "/placeholder-square-alt.svg",
      "alt": "Base Rib Bodysuit — full look"
     }
    ],

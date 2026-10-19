@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#242331" />
+      <stop offset="50%" stop-color="#191926" />
+      <stop offset="100%" stop-color="#12111b" />
+    </linearGradient>
+    <pattern id="diag" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 0 60 L 60 0 M 0 0 L 60 60" fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.04"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bgGrad)"/>
+  <rect width="1600" height="900" fill="url(#diag)"/>
+  <rect x="50" y="50" width="1500" height="800" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.12"/>
+  
+  <g transform="translate(800, 390)">
+    <path d="M -40 -40 C -40 -90, 40 -90, 40 -40" fill="none" stroke="#c49b4c" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+    <path d="M -70 -35 L -55 75 C -53 85, -40 92, -28 92 L 28 92 C 40 92, 53 85, 55 75 L 70 -35 Z" fill="#232130" stroke="#c49b4c" stroke-width="2" opacity="0.9"/>
+    <circle cx="0" cy="20" r="4" fill="#c49b4c" opacity="0.8"/>
+  </g>
+  <text x="800" y="550" text-anchor="middle" font-family="'Archivo', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="400" letter-spacing="0.4em" fill="#f4f2ee">VR ARTIGIANATO</text>
+  <text x="800" y="590" text-anchor="middle" font-family="'Archivo', 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="300" letter-spacing="0.3em" fill="#a49e93">LABORATORIO &amp; BOTTEGA · BORSE FATTE A MANO</text>
+</svg>
+

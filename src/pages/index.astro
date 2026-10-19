@@ -19,30 +19,30 @@ const itemListLd = JSON.stringify({
 });
 
 const HERO = [
-  { eyebrow: 'AUTUMN / WINTER 26', headline: 'NEW COLLECTION — GOLDEN HOUR', note: 'campaign 01 · tweed coat, stone facade', img: '/products/hero-1.jpg' },
-  { eyebrow: 'THE KNITWEAR ROOM', headline: 'WARMTH, CUT CLEAN', note: 'campaign 02 · cashmere, oak interior', img: '/products/hero-2.jpg' },
-  { eyebrow: 'SILK & TAILORING', headline: 'EVENINGS IN MULBERRY', note: 'campaign 03 · silk blouse, low light', img: '/products/hero-3.jpg' },
+  { eyebrow: 'COLLEZIONE ARTIGIANALE', headline: 'FATTE A MANO IN ITALIA', note: 'vr artigianato · pezzi unici in vera pelle', img: '/placeholder-banner.svg' },
+  { eyebrow: 'DETTAGLI & MATERIALI', headline: 'QUALITÀ E PASSIONE', note: 'vr artigianato · lavorazione artigianale', img: '/placeholder-banner.svg' },
+  { eyebrow: 'EDIZIONE SPECIALE', headline: 'STILE SENZA TEMPO', note: 'vr artigianato · design e tradizione', img: '/placeholder-banner.svg' },
 ];
 const TILES = [
-  { label: 'Jackets & Coats', note: 'coat on stone steps', img: '/products/cat-coats.jpg', cat: 'Jackets & Coats' },
-  { label: 'Knitwear', note: 'cashmere, warm light', img: '/products/cat-knitwear.jpg', cat: 'Sweaters & Hoodies' },
-  { label: 'Dresses', note: 'silk, wood interior', img: '/products/cat-dresses.jpg', cat: 'Dresses' },
-  { label: 'Blouses & Shirts', note: 'poplin, studio', img: '/products/cat-blouses.jpg', cat: 'Blouses' },
+  { label: 'Borse a Spalla', note: 'pelle pieno fiore', img: '/placeholder-square.svg', cat: 'Jackets & Coats' },
+  { label: 'Borse a Mano', note: 'rifiniture sartoriali', img: '/placeholder-square.svg', cat: 'Sweaters & Hoodies' },
+  { label: 'Tracolle & Pochette', note: 'versatilità quotidiana', img: '/placeholder-square.svg', cat: 'Dresses' },
+  { label: 'Zaini & Accessori', note: 'comfort e stile', img: '/placeholder-square.svg', cat: 'Blouses' },
 ];
 const BANNERS = [
-  { headline: 'THE TWEED STORY', img: '/products/banner-tweed.jpg', cat: 'Blazers' },
-  { headline: 'DENIM, RECUT', img: '/products/banner-denim.jpg', cat: 'Denim' },
+  { headline: 'LA TRADIZIONE DELLA PELLE', img: '/placeholder-banner.svg', cat: 'Blazers' },
+  { headline: 'PEZZI UNICI FATTI A MANO', img: '/placeholder-banner.svg', cat: 'Denim' },
 ];
 // look tiles: image + product ids styled in the look
 const LOOKS = [
-  { note: 'look 01 · tweed & denim', span: 2, video: false, img: '/products/look-1.jpg', items: ['nm01', 'nm19'] },
-  { note: 'look 02 · knit layering', span: 1, video: true, img: '/products/look-2.jpg', items: ['nm11', 'nm21'] },
-  { note: 'look 03 · silk evening', span: 1, video: false, img: '/products/look-3.jpg', items: ['nm05', 'nm22'] },
-  { note: 'look 04 · coat & scarf', span: 1, video: false, img: '/products/look-4.jpg', items: ['nm15', 'nm27'] },
-  { note: 'look 05 · denim studio', span: 2, video: true, img: '/products/look-5.jpg', items: ['nm24', 'nm09'] },
-  { note: 'look 06 · office hours', span: 1, video: false, img: '/products/look-6.jpg', items: ['nm20', 'nm22'] },
-  { note: 'look 07 · weekend', span: 1, video: false, img: '/products/look-7.jpg', items: ['nm13', 'nm25'] },
-  { note: 'look 08 · mulberry', span: 1, video: false, img: '/products/look-8.jpg', items: ['nm02', 'nm14'] },
+  { note: 'creazione 01 · borsa a spalla', span: 2, video: false, img: '/placeholder-square.svg', items: ['nm01', 'nm19'] },
+  { note: 'creazione 02 · borsa a mano', span: 1, video: false, img: '/placeholder-square.svg', items: ['nm11', 'nm21'] },
+  { note: 'creazione 03 · tracolla cuoio', span: 1, video: false, img: '/placeholder-square.svg', items: ['nm05', 'nm22'] },
+  { note: 'creazione 04 · pochette sera', span: 1, video: false, img: '/placeholder-square.svg', items: ['nm15', 'nm27'] },
+  { note: 'creazione 05 · zainetto artigiano', span: 2, video: false, img: '/placeholder-square.svg', items: ['nm24', 'nm09'] },
+  { note: 'creazione 06 · borsa da lavoro', span: 1, video: false, img: '/placeholder-square.svg', items: ['nm20', 'nm22'] },
+  { note: 'creazione 07 · shopping bag', span: 1, video: false, img: '/placeholder-square.svg', items: ['nm13', 'nm25'] },
+  { note: 'creazione 08 · mini bag pelle', span: 1, video: false, img: '/placeholder-square.svg', items: ['nm02', 'nm14'] },
 ];
 ---
 
@@ -74,7 +74,7 @@ const LOOKS = [
   <section class="mx-auto max-w-[1640px] px-5 pt-24 lg:px-9">
     <div class="grid grid-cols-2 gap-4 lg:grid-cols-4">
       {TILES.map((t) => (
-        <a href={`/catalog?cat=${encodeURIComponent(t.cat)}`} class="group relative block aspect-[3/4.2] overflow-hidden bg-tint">
+        <a href={`/catalog?cat=${encodeURIComponent(t.cat)}`} class="group relative block aspect-square overflow-hidden bg-tint">
           <img src={t.img} alt={t.label} loading="lazy" class="absolute inset-0 h-full w-full object-cover transition-transform duration-[900ms] group-hover:scale-[1.04]" />
           <span class="absolute inset-0 bg-ink/25 transition-colors duration-300 group-hover:bg-ink/35"></span>
           <span class="absolute inset-0 flex items-center justify-center">
@@ -116,20 +116,20 @@ const LOOKS = [
 
   <!-- ── Wide banner ── -->
   <section class="relative mt-28 h-[74vh] min-h-[520px] overflow-hidden bg-[#e4e1da]">
-    <img src="/products/banner-wide.jpg" alt="" loading="lazy" class="absolute inset-0 h-full w-full object-cover" />
+    <img src="/placeholder-banner.svg" alt="" loading="lazy" class="absolute inset-0 h-full w-full object-cover" />
     <div class="absolute inset-0 bg-ink/45"></div>
     <div class="absolute inset-0 flex flex-col items-center justify-center gap-5 text-center text-white">
-      <div class="text-[11px] tracking-[0.3em]">THE TAILORING EDIT</div>
-      <div class="max-w-[18ch] text-[clamp(26px,3vw,40px)] leading-tight tracking-[0.2em]">SHAPE THE SEASON</div>
-      <a href="/catalog?cat=Blazers" class="cap link-u" style="letter-spacing:.22em">Shop now</a>
+      <div class="text-[11px] tracking-[0.3em]">VR ARTIGIANATO</div>
+      <div class="max-w-[18ch] text-[clamp(26px,3vw,40px)] leading-tight tracking-[0.2em]">BORSE IN VERA PELLE</div>
+      <a href="/catalog" class="cap link-u" style="letter-spacing:.22em">Scopri la collezione</a>
     </div>
   </section>
 
   <!-- ── Shop the look ── -->
   <section id="looks" class="mx-auto max-w-[1640px] scroll-mt-28 px-5 pt-28 lg:px-9">
     <div class="mb-8 flex items-end justify-between">
-      <h2 class="m-0 text-[15px] font-normal tracking-[0.26em]">SHOP THE LOOK</h2>
-      <span class="cap-xs text-muted">Tap + to shop each look</span>
+      <h2 class="m-0 text-[15px] font-normal tracking-[0.26em]">GALLERIA ARTIGIANALE</h2>
+      <span class="cap-xs text-muted">Tocca + per scoprire i dettagli</span>
     </div>
     <div class="grid grid-cols-2 gap-4 lg:grid-cols-5" style="grid-auto-rows:210px">
       {LOOKS.map((l, i) => (
@@ -154,7 +154,7 @@ const LOOKS = [
   <!-- ── Topseller carousel ── -->
   <section class="pt-28">
     <div class="mx-auto mb-8 flex max-w-[1640px] items-end justify-between px-5 lg:px-9">
-      <h2 class="m-0 text-[15px] font-normal tracking-[0.26em]">TOPSELLER</h2>
+      <h2 class="m-0 text-[15px] font-normal tracking-[0.26em]">I PIÙ APPREZZATI</h2>
       <div class="flex gap-2.5">
         <button data-car-prev="top" class="btn-ghost h-[38px] w-[38px] text-[13px]">←</button>
         <button data-car-next="top" class="btn-ghost h-[38px] w-[38px] text-[13px]">→</button>
@@ -165,12 +165,12 @@ const LOOKS = [
 
   <!-- ── Manifesto ── -->
   <section class="mx-auto flex max-w-[900px] flex-col items-center gap-6 px-5 py-12 text-center sm:gap-8 sm:py-32">
-    <div class="text-[11px] tracking-[0.3em]">THE HOUSE</div>
-    <p class="m-0 text-[clamp(19px,2.2vw,26px)] leading-relaxed tracking-[0.06em]" style="text-wrap:pretty">Tailored for women who run the room. We cut pieces that hold their shape through long days and longer years — considered proportions, honest materials, nothing that shouts.</p>
+    <div class="text-[11px] tracking-[0.3em]">IL NOSTRO LABORATORIO</div>
+    <p class="m-0 text-[clamp(19px,2.2vw,26px)] leading-relaxed tracking-[0.06em]" style="text-wrap:pretty">Ogni borsa nasce dalle mani sapienti dei nostri artigiani. Selezioniamo solo pellami di prima qualità, curando ogni singola cucitura e dettaglio per creare accessori senza tempo, fatti per durare una vita.</p>
     <div class="cap flex flex-wrap justify-center gap-x-14 gap-y-2 text-soft" style="letter-spacing:.2em">
-      <span>Designed in Hamburg</span>
-      <span>Conscious materials</span>
-      <span>Made to last</span>
+      <span>100% Fatto a Mano</span>
+      <span>Vera Pelle Italiana</span>
+      <span>Qualità Artigianale</span>
     </div>
   </section>
 
@@ -178,7 +178,7 @@ const LOOKS = [
   <section class="border-t border-line">
     <div class="grid items-stretch md:grid-cols-2">
       <div class="relative min-h-[320px] bg-[#eae7e0] md:min-h-[460px]">
-        <img src="/products/newsletter.jpg" alt="" loading="lazy" class="absolute inset-0 h-full w-full object-cover" />
+        <img src="/placeholder-square.svg" alt="" loading="lazy" class="absolute inset-0 h-full w-full object-cover" />
       </div>
       <div class="flex flex-col justify-center gap-5 px-6 py-16 lg:px-[72px] lg:py-24">
         <div class="text-[11px] tracking-[0.3em]">NEWSLETTER</div>
@@ -243,7 +243,7 @@ const LOOKS = [
       const items = (pop.dataset.items || '').split(',').map((id) => byId.get(id)).filter(Boolean);
       pop.innerHTML += items.map((p: any) => `
         <div class="flex items-center gap-3">
-          <img src="${p.image}" alt="" class="h-[52px] w-[40px] flex-none object-cover" />
+          <img src="${p.image}" alt="" class="aspect-square h-12 w-12 flex-none object-cover" />
           <div class="flex min-w-0 flex-1 flex-col gap-1">
             <a href="/products/${p.handle}" class="cap truncate" style="letter-spacing:.12em">${esc(p.name)}</a>
             <span class="text-[11px] text-soft">${fmt(p.price)}</span>

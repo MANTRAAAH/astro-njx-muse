@@ -16,20 +16,20 @@ interface Props {
   heroHeader?: boolean;
 }
 const {
-  title = 'NOBLE MUSE — premium womenswear Astro e-commerce theme',
-  description = 'Ink-navy editorial storefront on Astro + Tailwind v4: transparent-to-solid masthead over a campaign hero, hover mega menu, Shop the Look hotspots, quick-size add, cart and wishlist drawers.',
+  title = 'VR ARTIGIANATO — Borse fatte a mano',
+  description = 'Borse e accessori artigianali in vera pelle, realizzati a mano con passione e materiali di prima scelta.',
   ogImage,
   heroHeader = false,
 } = Astro.props;
 
-const siteOrigin = (Astro.site ?? new URL('https://astro-njx-muse.pages.dev')).origin;
+const siteOrigin = (Astro.site ?? new URL('https://vr-artigianato.it')).origin;
 const canonicalURL = new URL(Astro.url.pathname, siteOrigin).href;
-const ogImageURL = new URL(ogImage ?? '/products/hero-1.jpg', siteOrigin).href;
+const ogImageURL = new URL(ogImage ?? '/placeholder-square.svg', siteOrigin).href;
 const ga4Id = import.meta.env.PUBLIC_GA4_ID;
 const orgLd = JSON.stringify({
   '@context': 'https://schema.org',
   '@type': 'Organization',
-  name: 'NOBLE MUSE',
+  name: 'VR ARTIGIANATO',
   url: siteOrigin,
 });
 
@@ -90,21 +90,21 @@ const clientData = JSON.stringify({
   <body class="min-h-screen overflow-x-hidden bg-base font-sans font-light text-ink" data-provider={providerName} data-muse={clientData} data-hero-header={heroHeader ? '1' : ''}>
     <!-- ── Announcement ── -->
     <div class="flex h-9 items-center justify-center bg-ink text-white">
-      <a href="/catalog" class="cap link-u" style="letter-spacing:.18em">New Collection — Golden Hour</a>
+      <a href="/catalog" class="cap link-u" style="letter-spacing:.18em">Borse e Accessori in Vera Pelle — Fatti a Mano in Bottega</a>
     </div>
 
     <!-- ── Masthead (fixed; transparent over the hero, solid on scroll) ── -->
     <header data-header class="fixed inset-x-0 top-0 z-[100] border-b border-transparent text-white transition-[background,color,border-color,transform] duration-[400ms]" style={heroHeader ? 'transform:translateY(36px)' : ''}>
       <div class="mx-auto flex h-[60px] max-w-[1640px] items-center justify-between px-4 sm:grid sm:h-[86px] sm:grid-cols-[1fr_auto_1fr] sm:px-5 lg:px-9">
         <nav class="cap hidden items-center gap-4 whitespace-nowrap sm:flex lg:gap-7">
-          <a href="/catalog?tag=NEW IN" data-mega-off class="hidden sm:inline">New In</a>
-          <a href="/catalog" data-mega-on class="hidden sm:inline">Clothing</a>
-          <a href="/catalog?tag=LAST CHANCE" data-mega-off data-lastchance class="hidden sm:inline">Last Chance</a>
-          <a href="/#looks" data-mega-off class="hidden md:inline">Shop the Look</a>
+          <a href="/catalog?tag=NEW IN" data-mega-off class="hidden sm:inline">Nuovi Arrivi</a>
+          <a href="/catalog" data-mega-on class="hidden sm:inline">Collezione</a>
+          <a href="/catalog?tag=LAST CHANCE" data-mega-off data-lastchance class="hidden sm:inline">Pezzi Unici</a>
+          <a href="/#looks" data-mega-off class="hidden md:inline">Galleria</a>
         </nav>
         <a href="/" data-mega-off class="flex flex-col items-center gap-1.5">
-          <span class="whitespace-nowrap text-[clamp(15px,1.5vw,24px)] font-normal leading-none tracking-[0.42em]" style="text-indent:.42em">NOBLE MUSE</span>
-          <span class="whitespace-nowrap text-[7px] leading-none tracking-[0.44em] opacity-70" style="text-indent:.44em">DRESSING MODERN MUSES</span>
+          <span class="whitespace-nowrap text-[clamp(15px,1.5vw,24px)] font-normal leading-none tracking-[0.42em]" style="text-indent:.42em">VR ARTIGIANATO</span>
+          <span class="whitespace-nowrap text-[7px] leading-none tracking-[0.44em] opacity-70" style="text-indent:.44em">BORSE FATTE A MANO</span>
         </a>
         <div class="order-first flex items-center justify-end gap-4 whitespace-nowrap sm:order-none lg:gap-6" data-mega-off>
           <button data-search-toggle aria-label="Search" class="flex cursor-pointer items-center">
@@ -145,12 +145,12 @@ const clientData = JSON.stringify({
           </div>
           <div class="hidden flex-col items-start justify-end gap-4 border-l border-line pl-10 md:flex lg:pl-16">
             <a href="/catalog" class="relative block w-full overflow-hidden">
-              <img src="/products/hero-2.jpg" alt="Golden Hour campaign" loading="lazy" class="aspect-[16/10] w-full object-cover transition-transform duration-500 hover:scale-[1.03]" />
-              <span class="note absolute left-3 top-2.5 text-white/85">campaign 02 · golden hour</span>
+              <img src="/placeholder-banner.svg" alt="VR Artigianato" loading="lazy" class="aspect-[16/10] w-full object-cover transition-transform duration-500 hover:scale-[1.03]" />
+              <span class="note absolute left-3 top-2.5 text-white/85">vr artigianato · bottega</span>
             </a>
-            <div class="text-[26px] leading-snug tracking-[0.14em]">GOLDEN HOUR</div>
-            <div class="max-w-[34ch] text-[12px] leading-loose text-soft">Tweed, brushed wool and washed silk in mulberry, cream and ink. The autumn edit, made to be worn past the season.</div>
-            <a href="/catalog" class="cap link-u" style="letter-spacing:.2em">Shop the collection</a>
+            <div class="text-[26px] leading-snug tracking-[0.14em]">PEZZI UNICI</div>
+            <div class="max-w-[34ch] text-[12px] leading-loose text-soft">Borse in vera pelle lavorate artigianalmente. Ogni creazione racconta una storia di passione e maestria manuale.</div>
+            <a href="/catalog" class="cap link-u" style="letter-spacing:.2em">Scopri la collezione</a>
           </div>
         </div>
       </div>
@@ -194,10 +194,10 @@ const clientData = JSON.stringify({
         ))}
       </div>
       <div class="mx-auto max-w-[1640px] px-5 pt-16 lg:px-9">
-        <div class="overflow-hidden whitespace-nowrap text-center leading-[0.9] tracking-[0.06em] text-transparent" style="font-size:clamp(56px,12.4vw,210px);-webkit-text-stroke:1px #d8d5cd">NOBLE MUSE</div>
+        <div class="overflow-hidden whitespace-nowrap text-center leading-[0.9] tracking-[0.06em] text-transparent" style="font-size:clamp(40px,9.5vw,160px);-webkit-text-stroke:1px #d8d5cd">VR ARTIGIANATO</div>
       </div>
       <div class="mx-auto flex max-w-[1640px] flex-wrap justify-between gap-4 px-5 pb-10 pt-6 text-[10px] tracking-[0.1em] text-muted lg:px-9">
-        <span>© <span data-year></span> Noble Muse GmbH — Muse theme for Astro · {providerName} provider</span>
+        <span>© <span data-year></span> VR Artigianato — Borse fatte a mano in Italia</span>
         <span class="flex flex-wrap gap-5">
           <a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a>
           <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
@@ -259,7 +259,7 @@ const clientData = JSON.stringify({
     <div data-popup class="fixed inset-0 z-[300] hidden items-center justify-center p-5 lg:p-10 [&.on]:flex">
       <div data-popup-dim class="absolute inset-0 bg-ink/30"></div>
       <div class="anim-pop relative grid w-[min(900px,100%)] bg-white md:grid-cols-2">
-        <img src="/products/popup.jpg" alt="" class="hidden min-h-[420px] w-full object-cover md:block" />
+        <img src="/placeholder-square.svg" alt="" class="hidden min-h-[420px] w-full object-cover md:block" />
         <div class="flex flex-col justify-center gap-4 p-8 lg:p-11">
           <div class="flex justify-end"><button data-popup-close class="cap cursor-pointer" style="letter-spacing:.18em">Close</button></div>
           <div class="text-[24px] leading-snug tracking-[0.14em]">SUBSCRIBE AND GET 10% OFF</div>
@@ -364,7 +364,7 @@ const clientData = JSON.stringify({
         box.classList.add('show');
         box.innerHTML = hits.length ? hits.map((p) => `
           <a href="/products/${p.handle}" class="flex items-center gap-4 border-b border-linesoft py-3">
-            <img src="${p.image}" alt="" class="h-[52px] w-[40px] object-cover" />
+            <img src="${p.image}" alt="" class="aspect-square h-12 w-12 object-cover" />
             <span class="cap-tag flex-1">${esc(p.name)}</span>
             <span class="text-[12px]">${fmt(p.price)}</span>
           </a>`).join('') : `<div class="cap-tag py-4 text-muted">Nothing found — try a different word.</div>`;
@@ -401,7 +401,7 @@ const clientData = JSON.stringify({
         $('[data-cart-lines]')!.innerHTML = lines.length ? lines.map((l) => {
           const p = byHandle.get(l.handle); if (!p) return '';
           return `<div class="flex gap-4 border-b border-linesoft py-6">
-            <img src="${p.image}" alt="" class="h-[78px] w-[58px] flex-none object-cover" />
+            <img src="${p.image}" alt="" class="aspect-square h-16 w-16 flex-none object-cover" />
             <div class="flex min-w-0 flex-1 flex-col gap-2">
               <a href="/products/${p.handle}" class="cap-tag">${esc(p.name)}</a>
               <span class="cap-xs text-muted" style="letter-spacing:.08em">Size ${esc(l.size)} · ${esc(l.color)}</span>
@@ -438,7 +438,7 @@ const clientData = JSON.stringify({
         $('[data-wish-lines]')!.innerHTML = list.length ? list.map((h) => {
           const p = byHandle.get(h); if (!p) return '';
           return `<div class="flex gap-4 border-b border-linesoft py-6">
-            <img src="${p.image}" alt="" class="h-[78px] w-[58px] flex-none object-cover" />
+            <img src="${p.image}" alt="" class="aspect-square h-16 w-16 flex-none object-cover" />
             <div class="flex min-w-0 flex-1 flex-col gap-2">
               <a href="/products/${p.handle}" class="cap-tag">${esc(p.name)}</a>
               <span class="text-[11px] text-soft">${fmt(p.price)}</span>
@@ -483,10 +483,10 @@ const clientData = JSON.stringify({
         ];
         $('[data-qv-panel]')!.innerHTML = `
           <div class="flex flex-col gap-2 bg-tint p-2">
-            <img data-qv-main src="${p.image}" alt="${esc(p.name)}" class="aspect-[3/4] w-full object-cover" />
+            <img data-qv-main src="${p.image}" alt="${esc(p.name)}" class="aspect-square w-full object-cover" />
             ${p.image2 ? `<div class="flex gap-2">
-              <button data-qv-img="${p.image}" class="w-[64px] flex-none cursor-pointer border border-ink"><img src="${p.image}" alt="" class="aspect-[3/4] w-full object-cover" /></button>
-              <button data-qv-img="${p.image2}" class="w-[64px] flex-none cursor-pointer border border-line opacity-80 hover:opacity-100"><img src="${p.image2}" alt="" class="aspect-[3/4] w-full object-cover" /></button>
+              <button data-qv-img="${p.image}" class="w-[64px] flex-none cursor-pointer border border-ink"><img src="${p.image}" alt="" class="aspect-square w-full object-cover" /></button>
+              <button data-qv-img="${p.image2}" class="w-[64px] flex-none cursor-pointer border border-line opacity-80 hover:opacity-100"><img src="${p.image2}" alt="" class="aspect-square w-full object-cover" /></button>
             </div>` : ''}
           </div>
           <div class="flex flex-col gap-5 p-8 lg:p-12">

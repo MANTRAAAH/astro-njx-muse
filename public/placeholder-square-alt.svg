@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <pattern id="grid-alt" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#e8e4dc" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="800" fill="#f0ede7"/>
+  <rect width="800" height="800" fill="url(#grid-alt)" opacity="0.6"/>
+  <rect x="30" y="30" width="740" height="740" fill="none" stroke="#dcd6cc" stroke-width="1.5"/>
+  <rect x="36" y="36" width="728" height="728" fill="none" stroke="#e5e0d6" stroke-width="1"/>
+
+  <g transform="translate(400, 350)">
+    <rect x="-85" y="-85" width="170" height="170" rx="8" fill="#e7e2d8" stroke="#1d1d2b" stroke-width="2.5"/>
+    <rect x="-70" y="-70" width="140" height="140" rx="4" fill="none" stroke="#b5ada2" stroke-width="2" stroke-dasharray="5 4"/>
+    <path d="M -50 -50 L 50 50" stroke="#8c8275" stroke-width="2" stroke-dasharray="6 4"/>
+    <circle cx="0" cy="0" r="34" fill="#f0ede7" stroke="#1d1d2b" stroke-width="2"/>
+    <text x="0" y="8" text-anchor="middle" font-family="'Archivo', Arial, sans-serif" font-size="20" font-weight="600" letter-spacing="0.1em" fill="#191936">VR</text>
+  </g>
+
+  <text x="400" y="525" text-anchor="middle" font-family="'Archivo', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="500" letter-spacing="0.32em" fill="#191936">VR ARTIGIANATO</text>
+  <text x="400" y="555" text-anchor="middle" font-family="'Archivo', 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" letter-spacing="0.22em" fill="#7a7368">DETTAGLIO ARTIGIANALE</text>
+  <line x1="340" y1="575" x2="460" y2="575" stroke="#d5cfc5" stroke-width="1"/>
+  <text x="400" y="605" text-anchor="middle" font-family="'Archivo', 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" letter-spacing="0.28em" fill="#a8a196">VISTA SECONDARIA 1:1</text>
+</svg>
+
